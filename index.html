@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Zoo</title>
+    <style>
+        .big {
+            font-size: 27px;
+            letter-spacing: 1px;
+        }
+    
+        .small {
+            font-size: 10px;
+            color: lightblue;
+        }
+    
+        .center {
+            text-align: center
+        }
+    
+        .main {
+            text-align: right;
+        }
+    
+        .first {
+            text-align: center;
+            color: greenyellow!important;
+        }
+    
+        .price-tag {
+            font-size: 10px;
+            text-align: left;
+        }
+    
+        #contacts {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid gold;
+        }
+    
+        .like {
+            background-color: rgb(240, 206, 223);
+        }
+        .like-button {
+            background-color: hotpink;
+            padding: 5px;
+            width: 200px;
+            cursor: pointer;
+        }
+    </style>
+    
+    <body>
+        <h1 class="main center">Kauno Zoo sodas</h1>
+        <h2 class="main">Sveiki atvykę!</h2>
+        <i>Mes dirbame visas dienas, kviečiame apsilankyti</i>
+        <h2 class="main">Žirafos</h2>
+        <div class="animals">
+            <ul id="zirafos">
+                <li class="like-button">PATINKA</li>
+                <li>Žifara Nina</li>
+                <li>Žirafa Solo</li>
+                <li class="new">Tinklinė žirafa</li>
+                <li class="new">Rotšildo žirafas</li>
+            </ul>
+            <h2 class="main">Paukščiai</h2>
+            <ul id="pauksciai">
+                <li class="like-button">PATINKA</li>
+                <li>Karveliniai</li>
+                <li>Garniniai</li>
+                <li class="new">Gandriniai</li>
+                <li>Zvirbliai</li>
+            </ul>
+            <h2 class="main">Vabzdžiai <span>Atsinaujinom</span></h2>
+            <ul id="vabzdziai">
+                <li class="like-button">PATINKA</li>
+                <li>Žirgelis</li>
+                <li>Bitė</li>
+                <li>Skruzdėlė</li>
+                <li>Maldininkas</li>
+            </ul>
+            <h2 class="main">Ropliai</h2>
+            <ul id="Ropliai">
+                <li class="like-button">PATINKA</li>
+                <li>Žaltys</li>
+                <li>Smauglys</li>
+                <li class="new">Vežlys</li>
+                <li>Krokodilai</li>
+                <li>Iguanos</li>
+                <li>Amfisbena</li>
+            </ul>
+        </div>
+        <div class="prices">
+            <h2>Suaugęs: 5eur</h2>
+            <h2>Vaikas: 2eur</h2>
+            <h2>Šeima: 10eur</h2>
+            <h2 class="new">Klasė iki 10: 5.99 eur</h2>
+        </div>
+        <fieldset>
+            <legend>HEADER</legend>
+            <button id="h1-color">Nudažyti h1 žaliai</button>
+            <button id="h1-font">Pakeisti h1 fontą į 10px</button>
+        </fieldset>
+        <fieldset>
+            <legend>HEADER 2</legend>
+            <button id="h1-color-back">Grąžinti spalvą</button>
+            <button id="h1-font-back">Grąžinti fonto dydį</button>
+        </fieldset>
+        <div id="contacts">Radvilėnų pl. 21, Kaunas  <b>X</b><u>padidinti</u></div>
+    </body>
+    
+    </html>
